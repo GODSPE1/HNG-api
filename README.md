@@ -7,7 +7,7 @@ It is really simple to set up and to follow through.
 
 ## HOW TO SET UP
 - git clone this repo
-        `https://github.com/Lawsonredeye/HNG-api.git`
+        `https://github.com/GODSPE1/HNG-api.git`
 
 ## PRE-REQUISITES
 - Install all the dependencies using the reqiurements.txt
