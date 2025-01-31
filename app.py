@@ -1,5 +1,6 @@
 import os
 from flask import Flask,  make_response, jsonify
+import json
 from flask_cors import CORS
 from datetime import datetime, timezone
 
@@ -26,12 +27,12 @@ def get_data():
     """
     date = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
     data = {
-              'email': 'godspe18@gmail.com',
+              'email': 'godspe@gmail.com',
               'current_datetime': date,
               'github_url': 'https://github.com/GODSPE1/HNG-api'
             }
 
-    return make_response(jsonify(data))
+    return make_response(json.dumps(data))
 
 
 if __name__ == '__main__':
