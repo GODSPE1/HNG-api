@@ -27,7 +27,7 @@ def get_data():
     """
     date = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
     data = {
-              'email': 'godspe@gmail.com',
+              'email': 'godspy18@gmail.com',
               'current_datetime': date,
               'github_url': 'https://github.com/GODSPE1/HNG-api'
             }
